@@ -1,6 +1,6 @@
 $(document).ready(function() {
     
-    var topics = ["horse"];
+    var topics = ["horse", "birds", "turtles", "chickens"];
    
     function buttonShow(){
         $("#display-btns").empty();
@@ -48,21 +48,6 @@ $(document).ready(function() {
             }
         })
     }
-
- 
-
-
-    // //function animate() {
-
-    //     //var loop = $(this).attr("data-state");
-    //         if (state === "still") {
-    //             $(this).attr("src", $(this).attr("data-animate"));
-    //             $(this).attr("data-state", "animate");
-    //         } else {
-    //             $(this).attr("src", $(this).attr("data-still"));
-    //             $(this).attr("data-state", "still");
-    //         }
-    // }
 
     buttonShow();
 
